@@ -5,7 +5,7 @@ import adapter from '@sveltejs/adapter-vercel';
 const config = {
 	preprocess: vitePreprocess(),
 	kit: { adapter: adapter({
-		runtime:'nodejs18.x',
+		runtime:'nodejs22.x',
 		// split:false
 	}
 	) }
